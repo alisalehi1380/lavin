@@ -1,0 +1,436 @@
+
+@font-face
+{
+    font-family: IRANYekanBold;
+    src: url(../fonts/IRANYekanBold.ttf);
+    font-weight: bold;
+  }
+
+ @font-face
+ {
+    font-family: IRANYekanLight;
+    src: url(../fonts/IRANYekanLight.ttf);
+  }
+  @font-face
+  {
+    font-family: IRANYekanRegular;
+    src: url(../fonts/IRANYekanRegular.ttf);
+  }
+
+
+.IRANYekanRegular
+{
+    font: 14px all-petite-caps  !important;
+    font-family: IRANYekanRegular  !important;
+}
+
+.IR
+{
+    font-family: IRANYekanRegular  !important;
+}
+
+.erroralarm
+{
+    font: 14px all-petite-caps  !important;
+    font-family: IRANYekanRegular  !important;
+    color: red;
+}
+
+.directoryfont
+{
+  font: 12px all-petite-caps  !important;
+  font-family: IRANYekanRegular  !important;
+}
+
+.chatinput
+{
+  margin: 5px auto;
+  border-radius: 5px;
+  font: 12px all-petite-caps  !important;
+  font-family: IRANYekanRegular  !important;
+  padding: 5px;
+  width: 100%;
+  height: 100px;
+  resize: none;
+}
+
+.iconfont
+{
+  font-size: 30px !important;
+}
+
+.plusiconfont
+{
+  font-size: 15px !important;
+}
+
+
+.menuicon
+{
+  font-size: 20px !important;
+}
+
+.page-icon
+{
+  font-size: 30px !important;
+}
+
+
+.page-title
+{
+  font: 18px all-petite-caps  !important;
+  font-family: IRANYekanRegular  !important;
+  line-height: 60px !important;
+}
+
+.card-body
+{
+  min-height: 500px;
+}
+
+.table
+{
+  margin-top: 20px;
+}
+
+.btn
+{
+  border-radius: 5px;
+  margin: 5px;
+  font: 12px all-petite-caps  !important;
+  font-family: IRANYekanRegular  !important;
+}
+
+textarea
+{
+  font: 13px all-petite-caps  !important;
+  font-family: IRANYekanRegular  !important;
+}
+
+label
+{
+  color: black;
+}
+
+.dropdown
+{
+  border: 1px solid #adb5bd !important;
+  font: 15px all-petite-caps  !important;
+  padding: 5px;
+  font-family: IRANYekanRegular  !important;
+  padding: 0px 6px !important;
+  cursor: pointer !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  height: 40px !important;
+}
+
+
+.dropdopwn option
+{
+  font: 15px all-petite-caps  !important;
+  font-family: IRANYekanRegular  !important;
+}
+
+select
+{
+  cursor: pointer !important;
+}
+
+th
+{
+  text-align: center !important;
+  vertical-align: baseline ;
+}
+
+td
+{
+  text-align: center !important;
+  vertical-align: baseline !important;
+  padding: 5px !important;
+}
+
+.paginate
+{
+  background: #1abc9c;
+  cursor: pointer;
+  width:75px;
+  padding: 5px;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.filter
+{
+  padding:7px 5px !important;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.search
+{
+  padding:7px 5px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.numric
+{
+  width: 50px !important;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+  height: 38px;
+  flex: 0 auto !important;
+}
+
+.number
+{
+  width: 60px !important;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+  height: 30px;
+  flex: 0 auto !important;
+}
+
+input
+{
+    font: 13px all-petite-caps  !important;
+    font-family: IRANYekanRegular  !important;
+     border-radius: 5px;
+    border: 1px solid darkgray;
+    color:black;
+}
+
+input::placeholder
+{
+  text-align: right;
+}
+
+
+ input:focus
+ {
+  border: 2px solid #1abc9c;
+ }
+
+textarea
+{
+    font: 13px all-petite-caps  !important;
+    font-family: IRANYekanRegular  !important;
+    border-radius: 5px;
+    border: 1px solid darkgray;
+    color:black;
+    width: 100%;
+    height: 150px;
+    padding: 5px;
+}
+
+.btn
+{
+  margin: 0px !important;
+  color: #fff;
+}
+
+.checkbox
+{
+   cursor: pointer !important;
+}
+
+ .GroupBox
+ {
+   border: 1px solid #adb5bd;
+   border-radius: 5px;
+   padding: 0px 50px;
+   padding: 50px;
+   margin: 20px !important;
+ }
+
+ legend
+{
+    font-size:15px !important;
+    width: 102px;
+    margin: 0px !important;
+    font: 14px all-petite-caps  !important;
+    font-family: IRANYekanBold  !important;
+    padding: 5px;
+}
+
+fieldset
+{
+    margin:auto !important;
+    border-radius:5px;
+    border: 1px solid #adb5bd;
+}
+
+.lineHeight
+{
+  line-height: 35px;
+}
+
+.report
+{
+  width:100% !important;
+  height: 300px !important;
+  padding: 10px !important;
+  border-radius: 5px;
+  resize: none;
+}
+
+
+.TriageTitle
+{
+  color:dodgerblue;
+}
+
+.modal
+{
+  direction: rtl !important;
+}
+
+.ltr
+{
+  text-align: left !important;
+  direction: ltr !important;
+}
+
+.changepass
+{
+    background: #cb0f0fe6 ;
+    padding: 5px;
+    border-radius: 5px;
+    font: 14px IranSans;
+    color: #fff;
+    width: 100px;
+    margin-bottom: 10px;
+    transition: 500;
+    font: 12px all-petite-caps  !important;
+    font-family: IRANYekanRegular  !important;
+    margin: auto;
+}
+
+.changepass:hover
+{
+    background: #e16d65;
+    cursor: pointer;
+}
+
+.cancel
+{
+    width: 100px;
+    background: #d1700f ;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font: 14px IranSans;
+    color: #fff;
+    display: none;
+    margin-bottom: 10px;
+    transition: 500;
+    cursor:pointers;
+    font: 12px all-petite-caps  !important;
+    font-family: IRANYekanRegular  !important;
+    margin: auto;
+}
+
+.cancel:hover
+{
+    background: #f8a14a;
+    cursor: pointer;
+}
+
+.filter
+{
+    min-height:200px;
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+.cursor-pointer
+{
+    cursor: pointer;
+}
+
+.ticket-text
+{
+  direction: rtl;
+  text-align: justify;
+  line-height: 25px;
+}
+
+.font18
+{
+  font-size: 18px;
+}
+
+.mds-bootstrap-persian-datetime-picker-container .btn ,.popover-header
+{
+  color: black;
+  font: 12px all-petite-caps  !important;
+  font-family: IRANYekanRegular  !important;
+}
+
+.select2-dropdown strong
+{
+  font-weight: 900 !important;
+}
+
+.pointer
+{
+  cursor: pointer !important;
+}
+
+.progress { position:relative; width:100%; height: 18px;direction:initial;display:none;}
+
+.bar { background:aqua; width:0%; height:20px; }
+
+.percent { position:absolute; display:inline-block; left:50%; color: #040608;}
+
+.font-18
+{
+  font-size: 20px;
+}
+
+#myInput {
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 2px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+.review-rating i {
+  cursor: pointer;
+  margin-right: -5px;
+  color: lightgrey;
+}
+
+.text-warning-force{
+  color: #ff8c00 !important;
+}
